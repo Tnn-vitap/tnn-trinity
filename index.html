@@ -38,6 +38,7 @@
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
       transition: transform 0.3s ease;
+      padding: 20px;
     }
 
     .event-card:hover {
@@ -52,14 +53,28 @@
       background-color: #1f4068;
       color: white;
       padding: 10px 20px;
-      font-size: 1.1rem;
+      font-size: 1rem;
       border: none;
       border-radius: 5px;
       transition: background-color 0.3s ease;
+      margin-top: 10px;
     }
 
     .btn-register:hover {
       background-color: #e43f5a;
+    }
+
+    .info-box {
+      background: #ffffff;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+      padding: 20px;
+      margin-bottom: 40px;
+    }
+
+    .info-box p {
+      margin: 8px 0;
+      font-size: 1.1rem;
     }
 
     footer {
@@ -79,49 +94,47 @@
     <p class="lead">An Umbrella of Three AI-powered Events by Team Next Nexus, VIT-AP</p>
   </header>
 
-  <div class="container">
+  <div class="container mt-4">
+    <div class="info-box text-center">
+      <p><strong>📛 Club/Chapter:</strong> Team Next Nexus</p>
+      <p><strong>🧠 Event Name:</strong> TNN Trinity</p>
+      <p><strong>📍 Venue:</strong> ONLINE</p>
+      <p><strong>📅 Date:</strong> 23-04-2025 to 25-04-2025</p>
+      <p><strong>⏳ Duration:</strong> 3 Days</p>
+      <p><strong>🏆 Total Prize Pool:</strong> ₹1800/-</p>
+    </div>
+
     <h2 class="section-title">Event Highlights</h2>
-    <div class="row g-4">
+    <div class="row g-4 justify-content-center">
 
       <!-- Prompt Roulette -->
-      <div class="col-md-4">
-        <div class="card event-card h-100 p-3">
+      <div class="col-md-5">
+        <div class="card event-card h-100">
           <h5 class="card-title">🎯 Prompt Roulette</h5>
           <p class="card-text">
             Craft the best prompts for AI agents based on given problem statements to generate full web apps. Showcase your prompt engineering and AI understanding.
           </p>
-        </div>
-      </div>
-
-      <!-- If I Were a LLM Model -->
-      <div class="col-md-4">
-        <div class="card event-card h-100 p-3">
-          <h5 class="card-title">🧠 If I Were a LLM Model</h5>
-          <p class="card-text">
-            Imagine you're building the next ChatGPT — how would your model think, behave, and perform? Let your inner LLM architect speak in this essay writing competition.
-          </p>
+          <a href="https://forms.gle/8x7FELijyAASi8hE6" class="btn btn-register" target="_blank">Register Now</a>
         </div>
       </div>
 
       <!-- Poster Generation -->
-      <div class="col-md-4">
-        <div class="card event-card h-100 p-3">
+      <div class="col-md-5">
+        <div class="card event-card h-100">
           <h5 class="card-title">🎨 Poster Generation</h5>
           <p class="card-text">
             Use AI tools like GPT and LLMs to generate a visually compelling poster on the theme: <strong>Sustainable AI</strong>. Test your creative-genius-meets-AI-skills.
           </p>
+          <a href="https://forms.gle/8x7FELijyAASi8hE6" class="btn btn-register" target="_blank">Register Now</a>
         </div>
       </div>
-    </div>
 
-    <div class="text-center mt-5">
-      <a href="https://forms.gle/your-form-link" class="btn btn-register">Register Now</a>
-      <p class="mt-3"><strong>Event Coordinator:</strong> Veer Pratap Singh</p>
     </div>
   </div>
 
   <footer>
     <p>&copy; 2025 Team Next Nexus | VIT-AP University</p>
+    <p>📞 Event Coordinator: Veer Pratap Singh | +91 96643 37961</p>
   </footer>
 
 </body>
